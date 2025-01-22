@@ -1,3 +1,5 @@
+import shadow.bundletool.com.android.tools.r8.internal.v7
+
 plugins {
     alias(libs.plugins.android.application)
 }

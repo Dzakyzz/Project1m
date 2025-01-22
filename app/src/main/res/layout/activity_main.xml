@@ -12,11 +12,11 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="142dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingTop="10dp"
-        android:text="YkazDApp"
+        android:text="P1MApp"
         android:textColor="@color/black"
         android:textSize="25dp"
         android:textStyle="bold" />
@@ -28,7 +28,7 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/download" />
+        android:src="@drawable/xuy" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -42,9 +42,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
-            android:theme="@style/AppTheme"
             android:backgroundTint="@color/blue"
-            android:text="GMaps"/>
+            android:text="GMaps"
+            android:theme="@style/AppTheme" />
 
         <Button
             android:id="@+id/button2"
@@ -52,9 +52,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="80dp"
-            android:theme="@style/AppTheme"
             android:backgroundTint="@color/blue"
-            android:text="Call" />
+            android:text="Call"
+            android:theme="@style/AppTheme" />
 
         <Button
             android:id="@+id/button3"
@@ -62,9 +62,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="140dp"
-            android:theme="@style/AppTheme"
             android:backgroundTint="@color/blue"
-            android:text="StopWatch" />
+            android:text="StopWatch"
+            android:theme="@style/AppTheme" />
 
         <Button
             android:id="@+id/button4"
@@ -72,9 +72,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="200dp"
-            android:theme="@style/AppTheme"
             android:backgroundTint="@color/blue"
-            android:text="Share" />
+            android:text="Share"
+            android:theme="@style/AppTheme" />
 
         <Button
             android:id="@+id/button5"
@@ -82,9 +82,18 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="260dp"
-            android:theme="@style/AppTheme"
             android:backgroundTint="@color/blue"
-            android:text="Website" />
+            android:text="Rating"
+            android:theme="@style/AppTheme" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="350dp"
+            android:numStars="5"
+            android:stepSize="0.5" />
     </androidx.cardview.widget.CardView>
 
 </LinearLayout>
