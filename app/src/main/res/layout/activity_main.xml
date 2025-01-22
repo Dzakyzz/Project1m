@@ -83,7 +83,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="260dp"
             android:backgroundTint="@color/blue"
-            android:text="Rating"
+            android:text="Kalkulator"
             android:theme="@style/AppTheme" />
 
         <RatingBar

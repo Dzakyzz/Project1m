@@ -71,22 +71,7 @@ public class MainActivity extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
-                builder.setTitle("Rating");
-                builder.setMessage("Rating dulu ya??");
-                builder.setPositiveButton("Ya", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(MainActivity.this, "Horee, silahkan rating dibawah ini😘", Toast.LENGTH_SHORT).show();
-                    }
-                });
-                builder.setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                       Toast.makeText(MainActivity.this, "Waduhh, Gak respekk banget wok😭😔", Toast.LENGTH_SHORT).show();
-                    }
-                });
-                builder.show();
+                startActivity(new Intent(MainActivity.this, Kalkulator.class));
             }
         });
 
